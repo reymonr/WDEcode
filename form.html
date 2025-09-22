@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Latihan Form</title>
+</head>
+<body>
+    <h2>Latihan Membuat Komponen Form</h2>
+
+    <form action="">
+        <table>
+            <tr>
+                <td> <label for="cth_textbox">Textbox</label> </td>
+                <td> : </td>
+                <td> <input type="text" name="cth_textbox" id=""> </td>
+            </tr>
+            <tr>
+                <td> <label for="cth_textarea">Textarea</label> </td>
+                <td> : </td>
+                <td> <textarea name="cth_textarea" id="" cols="20" rows="5"></textarea> </td>
+            </tr>
+            <tr>
+                <td> <label for="cth_password">Password</label> </td>
+                <td> : </td>
+                <td> <input type="password" name="cth_password" id=""> </td>
+            </tr>
+            <tr>
+                <td> <label for="cth_email_box">Email</label> </td>
+                <td> : </td>
+                <td> <input type="email" name="cth_email_box" id=""> </td>
+            </tr>
+            <tr>
+                <td> <label for="">Program Studi: </label> </td>
+                <td> : </td>
+                <td>
+                    <input type="radio" name="prodi" id=""> Sistem Informasi
+                    <input type="radio" name="prodi" id=""> Informatika
+                    <input type="radio" name="prodi" id=""> Teknologi Informasi
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="cth_hobby">Hobby</label> </td>
+                <td> : </td>
+                <td> 
+                    <input type="checkbox" name="hobby" id=""> Berenang
+                    <input type="checkbox" name="hobby" id=""> Sepakbola
+                    <input type="checkbox" name="hobby" id=""> Menyanyi
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="cth_dropdown">Asrama</label> </td>
+                <td> : </td>
+                <td>
+                    <select name="asrama" id="">
+                        <option value="Edelweiss"> Edelweiss </option>
+                        <option value="Crystal"> Crystal </option>
+                        <option value="Jasmine"> Jasmine </option>
+                        <option value="Annex"> Annex </option>
+                        <option value="Guest House"> Guest House </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <button type="reset"> Reset Form </button>
+                    <button type="submit"> Save Data </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
